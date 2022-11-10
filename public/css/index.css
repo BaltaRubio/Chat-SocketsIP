@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #ef233c;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    user-select: none;
+    
+}
+
+.header1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #111111;
+    padding: 40px;
+    display: block;
+    height: 40px;
+    
+
+}
+
+.contenedor1{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    border-color: black;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.197);
+    position: absolute;
+    background-color: white;
+    top: 25%;
+    left: 12%;
+    width: 35%;
+    padding-bottom: 20px;
+}
+.contenedor2{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    border-color: black;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.197);
+    position: absolute;
+    background-color: white;
+    padding-bottom: 20px;
+    top: 25%;
+    left: 52%;
+    width: 35%;
+}
+.encabezado{
+    position: relative;
+    background-color: transparent;
+    padding: 2.5%;
+    left: 40px;
+    width: 300px;
+    color: #000000;
+}
+.notificaciones{
+    position:relative;
+    padding: 2.5%;
+    width: 85%;
+    height: 75%;
+    background-color: #dee2e6;
+    border-radius: 10px;
+    left: 8%;
+    margin-bottom: 10px;
+}
+.contenedorChat{
+    position:relative;
+    padding: 2.5%;
+    width: 85%;
+    height: 50%;
+    background-color: #dee2e6;
+    border-radius: 10px;
+    left: 8%;
+    margin-bottom: 10px;
+}
+.botonEnvio{
+    width: 15%;
+    border-radius: 5px;
+    height: 9%;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    color: white;
+    background-color: black;
+    margin-left: 5%;
+}
+
+.botonEnvio:hover{
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+.mensaje{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+
+    top: 25%;
+    left: 50%;
+    width: 35%;
+
+    margin-left: 8%;
+}
+.usuario{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 2%;
+
+    top: 25%;
+    left: 50%;
+    width: 35%;
+
+    margin-left: 8%;
+}
+.avisos{
+    position: relative;
+    font-style: italic;
+    height: 20px;
+    width: 420px;
+    color: #000000;
+    background-color: transparent;
+}
