@@ -1,4 +1,5 @@
-import {PORT} from './config.js'
+//import {PORT} from './config.js'
+//const {PORT} = require('./config.js')
 
 const express = require('express');
 var app = require('express')();
@@ -7,8 +8,9 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
 //Inicio de servidor más pro
-app.set('port', process.env.PORT || PORT);
-server.listen(app.get('port'), () => console.log('Servidor iniciado en ', PORT));
+//app.set('port', process.env.PORT || PORT);
+const PORT = process.env.PORT || 3000
+server.listen(PORT, () => console.log('Servidor iniciado en ', PORT));
 
 app.use(express.static('public'));
 
