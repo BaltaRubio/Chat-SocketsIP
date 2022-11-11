@@ -8,11 +8,11 @@ var io = require('socket.io')(server);
 
 //Inicio de servidor más pro
 //app.set('port', process.env.PORT || PORT);
-const PORT = process.env.$PORT || 3000
+const $PORT = process.env.$PORT || 3000
 
 console.log($PORT);
 
-server.listen(PORT, () => console.log('Servidor iniciado en ', $PORT));
+server.listen($PORT, () => console.log('Servidor iniciado en ', $PORT));
 
 app.use(express.static('public'));
 
